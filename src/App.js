@@ -22,7 +22,7 @@ function App() {
   return (
     <div>
       {room ? (
-        <Chat props={room}/>
+        <Chat room={room}/>
       ) : (
         <div>
           <label> Enter Room Name: </label>
