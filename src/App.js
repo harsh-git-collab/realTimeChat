@@ -20,7 +20,7 @@ function App() {
   }
 
   return (
-    <div>
+    <div className='chatdiv'>
       {room ? (
         <Chat room={room}/>
       ) : (
